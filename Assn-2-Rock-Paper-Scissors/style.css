@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .scoreboard__label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1rem;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .scoreboard__score {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-size: 3rem;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .game__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 1rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .btn img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .game__result {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .game__reset {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reset {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset:hover {
+    background-color: #ddd;
+  }
+  
