@@ -1,0 +1,49 @@
+/* Custom CSS styles for the Weather Search Application */
+
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style the location prompt */
+  #location-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #location-error {
+    margin-top: 0.5rem;
+  }
+  
+  /* Style the search form */
+  #search-form {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search-input {
+    flex: 1;
+  }
+  
+  /* Style the weather display */
+  #weather-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  #location-name {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Additional styling using Tailwind CSS utility classes */
+  body {
+    background-color: #f7fafc;
+  }
+  
